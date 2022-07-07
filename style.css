@@ -1,0 +1,99 @@
+
+
+ul{
+    line-height: 2.5rem;
+}
+
+.index ol {
+    line-height: 2.5rem;
+    list-style-type: 1;
+    display:inline-block;
+}
+
+.s-pad{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.divider{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.project > .img-container{
+    opacity: 1; transition: opacity .15s ease-in;
+}
+
+.project:hover > .img-container, .project:focus > .img-container{
+    opacity: .5; transition: opacity .15s ease-in;
+    
+}
+
+.project:hover > .link, .project:focus > .link{
+    text-decoration: underline;
+    
+}
+
+.project:active > .img-container{
+    opacity: .8; transition: opacity .15s ease-out;
+}
+
+.img-container{
+    overflow: hidden;
+
+}
+
+.img-container img{
+    object-fit: cover;
+    
+}
+
+.work .mode{
+    margin-top: -17%;
+}
+
+.work .bus{
+    margin-top: -6%;
+}
+
+.experience li p{
+    margin:.25rem 0 0;
+    line-height: 1.25rem;
+}
+
+.experience li{
+    margin-top: 1rem;
+}
+
+.contact form label, .contact form input, .contact form textarea{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    outline:none;
+    border: none;
+    
+}
+
+.contact form input:not(.button), .contact form textarea:not(.button){
+    padding: 1rem;
+    outline:none;
+    border: none;
+    box-sizing: border-box;
+}
+
+.contact input:focus:not(.button), .contact textarea:focus:not(.button), .contact input:hover:not(.button), .contact textarea:hover{
+    border:none;
+    background-color: #111;
+    color:white;
+    outline:none;
+    border: none;
+    box-sizing: border-box;
+}
+
+.contact input:focus ::placeholder{
+    color: white;
+    outline:none;
+    border: none;
+    box-sizing: border-box;
+}
+
