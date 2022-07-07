@@ -4,6 +4,9 @@ ul{
     line-height: 2.5rem;
 }
 
+p{
+    max-width: 34rem;
+}
 .index ol {
     line-height: 2.5rem;
     list-style-type: 1;
@@ -49,11 +52,15 @@ ul{
 }
 
 .work .mode{
-    margin-top: -17%;
+    margin-top:-13%;
 }
 
-.work .bus{
-    margin-top: -6%;
+.work .moods{
+    margin-top:-8%;
+}
+
+.work .duality{
+    margin-top:-7%;
 }
 
 .experience li p{
@@ -95,5 +102,15 @@ ul{
     outline:none;
     border: none;
     box-sizing: border-box;
+}
+
+
+
+@media screen and (min-width: 30em) {
+.s-pad{
+    padding-left:20%;
+    padding-right: 20%;
+}
+
 }
 
