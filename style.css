@@ -8,6 +8,19 @@ p{
     max-width: 34rem;
 }
 
+/* #region NAV */
+
+nav.floater{
+top: 30vh;
+left:3%;
+}
+
+nav.floater div{
+    background: rgba(256,256,256,.2)
+}
+
+
+/* #endregion/
 
 /* #region HOME*/
 
@@ -26,26 +39,8 @@ p{
     margin-left: 5%;
     margin-right: 5%;
 }
-/*
-.project > .img-container{
-    opacity: 1; transition: opacity .15s ease-in;
-}
 
-.project:hover > .img-container, .project:focus > .img-container{
-    opacity: .5; transition: opacity .15s ease-in;
-    
-}
-
-.project:hover > .link, .project:focus > .link{
-    text-decoration: underline;
-    
-}
-
-.project:active > .img-container{
-    opacity: .8; transition: opacity .15s ease-out;
-}
-*/
-.img-container{
+div.img-container{
     overflow: hidden;
 
 }
@@ -129,7 +124,7 @@ p{
 }
 
 #resume ol li ul li{
-    margin-top: .5rem;
+    margin-top: 1.25rem;
     line-height: 1.25rem;
 
 }
