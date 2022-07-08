@@ -54,7 +54,7 @@ div.img-container{
     
 }
 
-.work .mode{
+.mode{
     margin-top:-13%;
 }
 
@@ -146,3 +146,9 @@ div.img-container{
     max-width: 30rem;
 }
 /*#endregion*/
+
+/* #region Project Pages */
+.project p{
+    max-width: 34rem;
+}
+/* #endregion */
