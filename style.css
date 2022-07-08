@@ -7,6 +7,10 @@ ul{
 p{
     max-width: 34rem;
 }
+
+
+/* #region HOME*/
+
 .index ol {
     line-height: 2.5rem;
     list-style-type: 1;
@@ -22,7 +26,7 @@ p{
     margin-left: 5%;
     margin-right: 5%;
 }
-
+/*
 .project > .img-container{
     opacity: 1; transition: opacity .15s ease-in;
 }
@@ -40,7 +44,7 @@ p{
 .project:active > .img-container{
     opacity: .8; transition: opacity .15s ease-out;
 }
-
+*/
 .img-container{
     overflow: hidden;
 
@@ -114,3 +118,32 @@ p{
 
 }
 
+/*#endregion*/
+
+/* #region Resume*/
+#resume ol li ul{
+    list-style:disc;
+    line-height: 1.25rem;
+    margin-top: 1rem;
+
+}
+
+#resume ol li ul li{
+    margin-top: .5rem;
+    line-height: 1.25rem;
+
+}
+
+#resume li p{
+    margin:.25rem 0 0;
+    line-height: 1.25rem;
+}
+
+#resume .small{
+    font-variant: small-caps;
+}
+
+#resume ol, #resume ul{
+    max-width: 30rem;
+}
+/*#endregion*/
