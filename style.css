@@ -8,6 +8,9 @@ p{
     max-width: 34rem;
 }
 
+body .link:visited { outline: none; }
+body .link:active { outline: none; }
+body .link:focus { outline: none; }
 
 /* #region NAV */
 
