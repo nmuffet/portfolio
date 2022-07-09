@@ -1,26 +1,32 @@
-
-
-ul{
+ul {
     line-height: 2.5rem;
 }
 
-p{
-    max-width: 34rem;
+p {
+    max-width: 34em;
 }
 
-body .link:visited { outline: none; }
-body .link:active { outline: none; }
-body .link:focus { outline: none; }
+body .link:visited {
+    outline: none;
+}
+
+body .link:active {
+    outline: none;
+}
+
+body .link:focus {
+    outline: none;
+}
 
 /* #region NAV */
 
-nav.floater{
-top: 30vh;
-left:3%;
+nav.floater {
+    top: 30vh;
+    left: 3%;
 }
 
-nav.floater div{
-    background: rgba(256,256,256,.2)
+nav.floater div {
+    background: rgba(256, 256, 256, .2)
 }
 
 
@@ -31,78 +37,84 @@ nav.floater div{
 .index ol {
     line-height: 2.5rem;
     list-style-type: 1;
-    display:inline-block;
+    display: inline-block;
 }
 
-.s-pad{
+.s-pad {
     padding-left: 5%;
     padding-right: 5%;
 }
 
-.divider{
+.divider {
     margin-left: 5%;
     margin-right: 5%;
 }
 
-div.img-container{
+div.img-container {
     overflow: hidden;
 
 }
 
-.img-container img{
+.img-container img {
     object-fit: cover;
-    
+
 }
 
-.mode{
-    margin-top:-13%;
+.mode {
+    margin-top: -13%;
 }
 
-.work .moods{
-    margin-top:-8%;
+.work .moods {
+    margin-top: -8%;
 }
 
-.work .duality{
-    margin-top:-7%;
+.work .duality {
+    margin-top: -7%;
 }
 
-.experience li p{
-    margin:.25rem 0 0;
+.experience li p {
+    margin: .25rem 0 0;
     line-height: 1.25rem;
 }
 
-.experience li{
+.experience li {
     margin-top: 1rem;
 }
 
-.contact form label, .contact form input, .contact form textarea{
+.contact form label,
+.contact form input,
+.contact form textarea {
     display: block;
     width: 100%;
     box-sizing: border-box;
-    outline:none;
+    outline: none;
     border: none;
-    
+
 }
 
-.contact form input:not(.button), .contact form textarea:not(.button){
+.contact form input:not(.button),
+.contact form textarea:not(.button) {
     padding: 1rem;
-    outline:none;
+    outline: none;
     border: none;
     box-sizing: border-box;
 }
 
-.contact input:focus:not(.button), .contact textarea:focus:not(.button), .contact input:hover:not(.button), .contact textarea:hover{
-    border:none;
+.contact input:focus:not(.button),
+.contact textarea:focus:not(.button),
+.contact input:hover:not(.button),
+.contact textarea:hover {
+    border: none;
     background-color: #111;
-    color:white;
-    outline:none;
+    color: white;
+    outline: none;
     border: none;
     box-sizing: border-box;
 }
 
-.contact input:focus ::placeholder{
+.contact input:focus ::placeholder {
     color: white;
-    outline:none;
+    outline: none;
     border: none;
     box-sizing: border-box;
 }
@@ -110,45 +122,95 @@ div.img-container{
 
 
 @media screen and (min-width: 30em) {
-.s-pad{
-    padding-left:20%;
-    padding-right: 20%;
-}
+    .s-pad {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
 
 }
 
 /*#endregion*/
 
 /* #region Resume*/
-#resume ol li ul{
-    list-style:disc;
+#resume ol li ul {
+    list-style: disc;
     line-height: 1.25rem;
     margin-top: 1rem;
 
 }
 
-#resume ol li ul li{
+#resume ol li ul li {
     margin-top: 1.25rem;
     line-height: 1.25rem;
 
 }
 
-#resume li p{
-    margin:.25rem 0 0;
+#resume li p {
+    margin: .25rem 0 0;
     line-height: 1.25rem;
 }
 
-#resume .small{
+#resume .small {
     font-variant: small-caps;
 }
 
-#resume ol, #resume ul{
+#resume ol,
+#resume ul {
     max-width: 30rem;
 }
+
 /*#endregion*/
 
 /* #region Project Pages */
-.project p{
-    max-width: 34rem;
+.project p {
+    max-width: 34em;
 }
+
+.videocontainer {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    width: 100%;
+}
+
+.videocontainer iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* #endregion */
+
+/* #region MODE */
+#mode .deeppurple {
+    background-color: #0e1436
+}
+
+#mode .purple {
+    background-color: #6668a3
+}
+
+#mode .lavender {
+    background-color: #d6c7ec
+}
+
+#mode .yellow {
+    background-color: #e4d94c
+}
+
+#mode .grey {
+    background-color: #edeceb
+}
+
+#mode .square {
+    width: 15%;
+  }
+  
+  .square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
 /* #endregion */
