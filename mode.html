@@ -21,6 +21,7 @@
         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&text=%E2%86%90|%E2%86%92&display=swap"
         rel="stylesheet">
 
+        <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
 
     <link href="style.css" rel="stylesheet">
 </head>
@@ -148,12 +149,14 @@
         <h3 class="fw4 f4 i mb1 mt4 mt5-ns">Animation</h3>
 
         <div class="mv2 mv4-ns">
-        <div>
-            <iframe class="videocontainer" src="https://www.youtube.com/embed/NqBp587-W5Q"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
+                <!--#region Video-->
+                <video id="player" playsinline controls poster="images/mode/unframedAnimation_Moment.jpg">
+                    <source src="images/mode/unframedAnimation.mp4" type="video/mp4" />
+                  
+        
+                      </video>
+        
+        <!--#endregion-->
         <p class="i light-silver f6 mt1 caption mb0">The mark system was designed with animation in mind.</p>
         </div>
         <p>
@@ -285,6 +288,7 @@
 
 
     <!--#endregion-->
+    <script> src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
 
 </body>
 

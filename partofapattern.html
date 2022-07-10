@@ -21,7 +21,7 @@
         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&text=%E2%86%90|%E2%86%92&display=swap"
         rel="stylesheet">
 
-
+        <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
     <link href="style.css" rel="stylesheet">
 </head>
 
@@ -81,8 +81,24 @@
     <!-- #region Solution -->
     <section class="s-pad pv4 pv5-ns f4 lh-copy">
         <h2 class="f4 fw4 f3-ns i mt0">Solution</h2>
+        <!--#endregion-->
+
+        <!--#region Video-->
+        <video id="player" playsinline controls poster="images\mockup_title.jpg">
+            <source src="images/pattern/partofapattern.mp4" type="video/mp4" />
+          
+
+              </video>
+
+<!--#endregion-->
+
+
+
 
         <h3 class="fw4 f4 i mb2 mb4-ns mt5">Concept</h3>
+
+             
+
 
         <p class="mt2 mt4-ns">Part of a Pattern is an experiential website that explores SDG 10 Reduced Inequality and SDG 13 Climate Action through systems thinking. It seeks to shift paradigm thinking about how these complex problems are discussed rather than attempting to provide clear-cut solutions. Framed in this way, solution goals were narrowed to:
            <ul class="pl0">
@@ -92,14 +108,7 @@
             <p>By acknowledging complexity and providing a framework to begin addressing it, the site attempts to move the dialogue on climate action at an individual level away from typical refrains such as recycling, using less water, and avoiding meat.
             </p>
 
-        <!--#region Video Container-->
-        <div>
-            <iframe class="videocontainer"src="https://www.youtube.com/embed/HW_MhoW_OxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <p class="i light-silver f6 mt1 caption mb0">You can explore the site yourself on a desktop <a class="link i gold hover-bg-near-black hover-near-white" href="nmuffet.github.io/ISTD">here.</a> </p>
-        </div>
-
-        <!--#endregion-->
+   
 
         <h3 class="fw4 f4 i mb2 mb4-ns mt5">Graphic Language</h3>
 
@@ -241,13 +250,17 @@
   <!--#region Image Container-->
   <div class="pb0 pb2-ns img-container mv2 mv4-ns">
 
-    <div class="flex-ns justify-between mb4">
-        <img src="images\pattern\image5.jpg" alt="modular type layouts" class="pr4 w-50-ns">
-        <img src="images\pattern\image6.jpg" alt="modular type layouts" class="w-50-ns">
+    <div class="flex-ns justify-between">
+        <img src="images\pattern\image5.jpg" alt="modular type layouts" class="pr4 w-50-ns mb2 mb4-ns">
+        <img src="images\pattern\image6.jpg" alt="modular type layouts" class="w-50-ns mb2 mb4-ns">
     </div>
     <div class="flex-ns justify-between">
-        <img src="images\pattern\image7.jpg" alt="modular type layouts" class="pr4 w-50-ns">
-        <img src="images\pattern\image12.jpg" alt="modular type layouts" class="w-50-ns">
+        <img src="images\pattern\image7.jpg" alt="modular type layouts" class="pr4 w-50-ns mb2 mb4-ns">
+        <img src="images\pattern\image12.jpg" alt="modular type layouts" class="w-50-ns mb2 mb4-ns">
+
+    </div>
+    <div class="flex-ns justify-between">
+        <img src="images\pattern\image17.jpg" alt="modular type layouts" class="pr4 w-50-ns mb2 mb4-ns">
 
     </div>
 </div>
@@ -283,7 +296,7 @@
 
     <!--#endregion-->
     
-
+<script> src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
 </body>
 
 </html>
