@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AR Poster Communication</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="tachyons\css\tachyons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&text=%E2%86%90|%E2%86%92&display=swap"
+        rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
+
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="sans-serif near-black project" id="ar">
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!--#region Nav-->
+    <nav class="fixed-ns near-black dn dib-ns floater">
+        <a href="index.html#work" class="link f2 f2-ns ">
+            <div class="pa2 w3 h3 v-mid tc near-black hover-bg-near-black hover-near-white br-100">↲</div>
+        </a>
+    </nav>
+
+
+    <!--#endregion-->
+
+    <!-- #region Intro -->
+    <section class="s-pad pv4 pv5-ns">
+        <h1 class="f2 fw4 f1-ns i mb3 mt0">AR Poster Communication</h1>
+
+        <!--#region Image Container-->
+        <div class="pb0 pb2-ns img-container">
+
+            <div class="">
+                <img src="images/toro_mock.jpg" alt="Toro Nagashi Poster" class="mt2 ">
+            </div>
+
+            <p class="i light-silver f6 mt1 caption">3D, Animation, Development, Print, Screens, UX</p>
+        </div>
+        <!--#endregion-->
+
+
+
+    </section>
+    <!-- endregion -->
+
+
+    <!-- #region Brief -->
+    <section class="s-pad pv4 pv5-ns bg-near-black near-white">
+        <h2 class="f4 fw4 f3-ns i mt0">Brief</h2>
+
+        <div class="bb b--white-40 f4 mb1 mt4 mt5-ns">Objective</div>
+        <p class="f4 lh-copy mt0">Understand whether or not augmented reality contributes to poster viewer engagement and information recall.</p>
+
+        <div class="bb b--white-40 f4 mb1 mt4">Constraints</div>
+        <p class="f4 lh-copy mv0">Many packages for creating AR experiences are geared towards the development and computer science community. Supplementary programming and 3D knowledge had to be aquired to create these tests.</p>
+
+    </section>
+    <!--#endregion-->
+
+    <!-- #region Solution -->
+    <section class="s-pad pv4 pv5-ns f4 lh-copy">
+        <h2 class="f4 fw4 f3-ns i mt0">Solution</h2>
+
+        <h3 class="fw4 f4 i mb2 mb4-ns mt4 mt5-ns">Concept</h3>
+
+     <!--#region Image Container-->
+     <div class="pb0 pb2-ns img-container mv2 mv4-ns">
+
+        <div class="img-container  ">
+            <img src="images/ar/image1.jpg" alt="poster before and after">
+        </div>
+
+        <p class="i light-silver f6 mt1 mb0 caption">Poster 1 before and after scanning.</p>
+    </div>
+    <!--#endregion-->
+
+
+
+        <p class="">Augmented reality (AR) is a hot topic as it becomes a more accessible technology, though little research has been conducted on how designers should use it effectively.My master's thesis involved testing whether or not augmented reality has any impact on communication effectiveness or information recall.</p> 
+        
+        <p>To test this, I conducted interviews, led a student AR gallery implementation, and designed a series of posters that must be decoded through the use of an AR Instagram filters. Through my research I have hypothesized a series of principles for effectively designing with AR. Research on whether or not it has an impact on information recall is still ongoing.</p>
+
+
+        <div class="mw7 mv2 mv4-ns">
+            <div class="flex">
+            <!--#region Video-->
+            <video id="player" playsinline controls poster="" class=" mr2 mr4-ns mv2">
+                <source src="images/ar/pangea.mp4" type="video/mp4" class="" />
+              
+    
+                  </video>
+    
+    <!--#endregion-->
+
+                    <!--#region Video-->
+                    <video id="player" playsinline controls poster="" class="">
+                        <source src="images/ar/toro.mp4" type="video/mp4"  />
+                      
+            
+                          </video>
+                        </div>
+            
+            <!--#endregion-->
+        <p class="i light-silver f6 mt1 mb0 caption">Screen recordings of filters in action.</p>
+    </div>
+    </section>
+     
+    <!-- #region Process -->
+    <section class="s-pad pv4 pv5-ns f4 lh-copy bg-near-black near-white">
+        <h2 class="f4 fw4 f4-ns i mb3">Process</h2>
+
+        <p>
+            I designed this research process to scale by making the collection process totally automated once the QR code on the poster is scanned. The workflow goes something like this:
+            View print poster → Scan QR code → Submit email → Receive Instagram filter link → Receive short-term info recall survey 3 minutes later → Receive long-term information recall survey 7 days later
+            </p>
+
+                 <!--#region Image Container-->
+     <div class="pb0 pb2-ns img-container mv2 mv4-ns">
+
+        <div class="img-container  ">
+            <img src="images/ar/survey.jpg" alt="initial survey results">
+        </div>
+
+    </div>
+    <!--#endregion-->
+
+    <p>Running on the free Google Forms survey platform, responses are collected in a Google Sheet for easy analysis. To automate the research process, I learned to code a script that checks for new responses and emails them the short-term survey immediately after viewing and the long-term survey seven days later.</p>
+
+    <p>Next, this process was continued leaving objective content in both versions of the a poster but using 3D and frame-breaking augmentation as a differentiating factor. My studies showed that this received a much more intriguing and positive reaction from  viewers, but as soon as the augmentation is triggered, viewers stop reading the content.</p>
+    <p>
+        This tells us two things.
+        <ol>
+        <li>Breaking the frame of reference is important for eliciting a response of audience immersion.</li>
+            <li>Where an augmentation is triggered in the viewer journey is critical because, without guidance, it essentially closes the gate to material presented outside of the augmentation.</li>
+        </ol>
+
+    </section>
+    <!--#endregion-->
+
+
+    <!--#region Footer-->
+    <footer class="footer pb4 bg-near-black near-white">
+        <nav class="dn-ns">
+            <a href="index.html#work" class="link f2 flex justify-center">
+                <div class="pv3 ph4 v-mid tc near-white hover-bg-near-white hover-near-black">↲</div>
+            </a>
+        </nav>
+    </footer>
+
+
+    <!--#endregion-->
+    <script> src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
+
+</body>
+
+</html>
