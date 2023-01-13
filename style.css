@@ -214,6 +214,41 @@ div.img-container {
   }
 /* #endregion */
 
+/* #region Mortar */
+@font-face {
+    font-family: "mortar";
+    src: local("mortar"),
+      url("mortarbody020.ttf") format("truetype")
+  }
+  
+  .font-preview{
+    font-family: 'mortar', sans-serif;
+    color: #792817;
+    text-align:center;
+  }
+
+  .glyph-display{
+    font-size:8rem;
+    background-color: #ffdda3;
+  }
+
+  .all-glyphs{
+    font-size:2rem;
+    text-justify: auto;
+  }
+
+  @media screen and (min-width: 1200px) {
+    .glyph-display{
+        font-size:25rem;
+      }
+    
+      .all-glyphs{
+        font-size:3rem;
+  }
+  }
+  
+/* #endregion */
+
 
 /* #region Part of a Pattern */
 .shape{
