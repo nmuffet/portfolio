@@ -1,4 +1,9 @@
 
+/* base tachyons changes */
+.f-headline, .f-subheadline{
+    letter-spacing: -2px;
+}
+
 
 ul {
     line-height: 2.5rem;
