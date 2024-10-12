@@ -304,3 +304,10 @@ border-width: 0 0 4rem 4rem;
 }
 
 /* #endregion */
+
+/* #region Student Work */
+#student-work {
+    display: none;
+}
+
+/* #endregion */
