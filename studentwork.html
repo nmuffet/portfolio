@@ -57,7 +57,7 @@
     <!--#endregion-->
     <div class="s-pad pt4 pt5-ns">
         <h1 class="f2 fw4 f1-ns i mt0">Student Work</h1>
-        <p class="lh-copy f4">This content is password protected. Please reference communications or contact me for access.</p>
+        <p class="lh-copy f4">This content is password protected. If you believe you should have access, please reference communications or contact me.</p>
     </div>
 <main id="student-work">
     <!-- #region Hidden -->
@@ -80,7 +80,7 @@
         <!--#endregion-->
 
         <!-- #region Image Container Row-->
-        <div class="flex mt2 mb6-ns justify-between ">
+        <div class="flex flex-wrap mt2 mb6-ns justify-between ">
             <div class="mw6">
                 <img src="images/studentwork/fultz-gd2.png" alt="book cover of the invisible man">  
                 <p class="i light-silver f6 mt1 mb0 caption">Taylor Fultz | Graphic Design II</p>
@@ -94,7 +94,7 @@
         <!--#endregion-->
 
         <!-- #region Image Container Row-->
-        <div class="flex mt2 mb6-ns justify-between ">
+        <div class="flex flex-wrap mt2 mb6-ns justify-between ">
             <div class="mw6">
                 <img src="images/studentwork/ignacio-gd3.jpg" alt="lend me a soprano">  
                 <p class="i light-silver f6 mt1 mb0 caption">Halle Ignacio | Graphic Design III</p>
@@ -108,7 +108,7 @@
         <!--#endregion-->
 
         <!-- #region Image Container Row-->
-        <div class="flex mt2 mb6-ns justify-around ">
+        <div class="flex flex-wrap mt2 mb6-ns justify-around ">
             <div class="">
                 <img src="images/studentwork/hinkle-gd2.jpg" alt="social media posts on a canvas">  
                 <p class="i light-silver f6 mt1 mb0 caption">Natalie Hinkle | Graphic Design II</p>
@@ -117,7 +117,7 @@
         <!--#endregion-->
 
         <!-- #region Image Container Row-->
-        <div class="flex mt2 mb6-ns justify-around ">
+        <div class="flex flex-wrap mt2 mb6-ns justify-around ">
             <div class="">
                 <img src="images/studentwork/zheng-1.png" alt="animal farm book cover">  
                 <p class="i light-silver f6 mt1 mb0 caption">Andy Zheng | Graphic Design II</p>
@@ -150,10 +150,10 @@
       // Loop until the correct password is entered or user cancels
       while (password !== correctPassword) {
         if (attempts > 0) {
-          alert("To protect the privacy of students, this content is password protected. Please reference communications for the password.");
+          alert("Incorrect password. This content is password protected. If you believe you should have access, please reference communications or contact me.");
         }
 
-        password = prompt("Enter the password to view this page:");
+        password = prompt("Enter password to view this page. If you believe you should have access, please reference communications or contact me.");
         
         // If the user cancels the prompt (clicks cancel), the password will be null
         if (password === null) {
@@ -175,10 +175,12 @@
     <!--#region Footer-->
     <footer class="footer pb4 bg-near-black near-white">
         <nav class="dn-ns">
-            <a href="index#work" class="link f2 flex justify-center">
+            <a href="index#work" class="link f2 flex flex-wrap justify-center">
                 <div class="pv3 ph4 v-mid tc near-white hover-bg-near-white hover-near-black">↲</div>
             </a>
-        </nav>
+        </nav>'
+        '
+        <p>Coded with love using <a class="near-white hover-bg-near-white hover-near-black" href="https://tachyons.io/" target="_blank">Tachyons.</a> </p>
     </footer>
 
 
