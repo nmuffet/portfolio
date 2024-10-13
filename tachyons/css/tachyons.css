@@ -2434,7 +2434,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
  .ttl-ns { text-transform: lowercase; }
  .ttu-ns { text-transform: uppercase; }
  .ttn-ns { text-transform: none; }
- .f-6-ns, .f-headline-ns { font-size: 6rem; }
+ .f-6-ns, .f-headline-ns { font-size: 8rem; letter-spacing:-3px; }
  .f-5-ns, .f-subheadline-ns { font-size: 5rem; }
  .f1-ns { font-size: 3rem; }
  .f2-ns { font-size: 2.25rem; }
