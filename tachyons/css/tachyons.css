@@ -1110,7 +1110,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .red { color: #ff4136; }
 .light-red { color: #ff725c; }
 .orange { color: #ff6300; }
-.gold { color: #ffb700; }
+.gold { color: rgb(255, 183, 0); }
 .yellow { color: #ffd700; }
 .light-yellow { color: #fbf1a9; }
 .purple { color: #5e2ca5; }

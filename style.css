@@ -311,3 +311,17 @@ border-width: 0 0 4rem 4rem;
 }
 
 /* #endregion */
+
+
+.link-on-white {
+    text-decoration-color: #ffb700;
+    text-decoration-thickness: 0.2rem;
+}
+
+
+
+.hover-bg-gold:hover {
+    background: #ffb700;
+    color: #111;
+    text-decoration: none;
+}
