@@ -11,7 +11,7 @@ sub: Designer/Educator/Marketer
 work-type:
     - → Animation
     - → Identity & Branding
-    - → Information`
+    - → Information
     - → Photo/Video
     - → Screens
 index:
