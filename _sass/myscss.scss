@@ -1,0 +1,728 @@
+// import previous styles to extend
+@import 'tachyons.scss';
+
+
+/* base tachyons changes */
+.f-headline, .f-subheadline{
+    letter-spacing: -2px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:target:before {
+    content: "";
+    display: block;
+    height: 100px;
+    margin: -50px 0 0;
+}
+
+
+ul {
+    line-height: 2.5rem;
+}
+
+p {
+    max-width: 34em;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+figcaption {
+     @extend .i; 
+     @extend .light-silver; 
+     @extend .f6;
+     @extend .mt1; 
+     @extend .mb0; 
+}
+.link:visited {
+    outline: none;
+}
+
+.link:active {
+    outline: none;
+}
+
+.link:focus {
+    outline: none;
+}
+
+/* #region NAV */
+
+nav.floater {
+    top: 30vh;
+    left: 3%;
+}
+
+nav.floater div {
+    background: rgba(256, 256, 256, .2)
+}
+
+
+
+video{
+    width: 100%;
+    
+
+}
+/* #endregion */
+
+/* #region HOME */
+
+.index ol {
+    line-height: 2.5rem;
+    list-style-type: 1;
+    display: inline-block;
+}
+
+.s-pad {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.divider {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.img-container {
+    overflow: hidden;
+    @extend .pb0;    
+
+}
+.img-container .aspect-ratio{
+    overflow: hidden;
+    
+
+}
+
+.img-container img {
+    object-fit: cover;
+
+
+}
+
+.mode-program {
+    margin-top: -13%;
+}
+
+.work .moods {
+    margin-top: -8%;
+}
+
+.work .duality {
+    margin-top: -7%;
+}
+
+.experience li p {
+    margin: .25rem 0 0;
+    line-height: 1.25rem;
+}
+
+.experience li {
+    margin-top: 1rem;
+}
+
+.contact form label,
+.contact form input,
+.contact form textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+
+}
+
+.contact form input:not(.button),
+.contact form textarea:not(.button) {
+    padding: 1rem;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+.contact input:focus:not(.button),
+.contact textarea:focus:not(.button),
+.contact input:hover:not(.button),
+.contact textarea:hover {
+    border: none;
+    background-color: #111;
+    color: white;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+.contact input:focus ::placeholder {
+    color: white;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+
+@media screen and (min-width: 30em) {
+    .s-pad {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+}
+
+/*#endregion*/
+
+/* #region Resume*/
+#resume ol li ul {
+    list-style: disc;
+    line-height: 1.25rem;
+    margin-top: 1rem;
+
+}
+
+#resume ol li ul li {
+    margin-top: 1.25rem;
+    line-height: 1.25rem;
+
+}
+
+#resume li p {
+    margin: .25rem 0 0;
+    line-height: 1.25rem;
+}
+
+#resume .small {
+    font-variant: small-caps;
+}
+
+#resume ol,
+#resume ul {
+    max-width: 30rem;
+}
+
+/*#endregion*/
+
+/* #region Project Pages */
+
+.project ul {
+    @extend .f4;
+    @extend .lh-copy;
+    @extend .pl0;
+}
+.project p {
+    max-width: 34em;
+}
+
+.videocontainer {
+    aspect-ratio: 16 /9;
+    width: 100%;
+}
+
+.section-black {
+    @extend .s-pad ;
+    @extend .pv4 ;
+    @extend .pv5-ns ;
+    @extend .bg-near-black ;
+    @extend .near-white;
+}
+
+.section-white {
+    @extend .s-pad ;
+    @extend .pv4 ;
+    @extend .pv5-ns ;
+    @extend .near-black;
+}
+
+
+/* #endregion */
+
+/* #region MODE */
+.mode .deeppurple {
+    background-color: #0e1436
+}
+
+.mode .purple {
+    background-color: #6668a3
+}
+
+.mode .lavender {
+    background-color: #d6c7ec
+}
+
+.mode .yellow {
+    background-color: #e4d94c
+}
+
+.mode .grey {
+    background-color: #edeceb
+}
+
+.mode .square {
+    width: 15%;
+  }
+  
+  .square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+/* #endregion */
+
+/* #region Mortar */
+@font-face {
+    font-family: "mortar";
+    src: local("mortar"),
+      url("mortarbody020.ttf") format("truetype")
+  }
+  
+  .font-preview{
+    font-family: 'mortar', sans-serif;
+    color: #792817;
+    text-align:center;
+  }
+
+  .glyph-display{
+    font-size:8rem;
+    background-color: #ffdda3;
+  }
+
+  .all-glyphs{
+    font-size:2rem;
+    text-justify: auto;
+  }
+
+  @media screen and (min-width: 1200px) {
+    .glyph-display{
+        font-size:25rem;
+      }
+    
+      .all-glyphs{
+        font-size:3rem;
+  }
+  }
+  
+/* #endregion */
+
+/* #region Part of a Pattern */
+.shape{
+    aspect-ratio: 1 / 1;
+}
+.shape:before{
+  content:" ";
+  padding-top: 100%;
+  display: block;
+  aspect-ratio: 1 / 1;
+}
+
+/*Color Styles*/
+.green{
+  background-color:#5e8a5c;
+  border-color: transparent transparent #5e8a5c transparent;
+  /*border-radius: 100%;*/
+}
+
+.darkblue{
+background-color: #315d55;
+border-color: transparent transparent #315d55 transparent;
+}
+
+.orange{
+  background-color:#f17659;
+  border-color: transparent transparent #f17659 transparent;
+}
+
+.teal{
+  background-color: #8bddb8;
+   border-color: transparent transparent #8bddb8 transparent;
+}
+/*Shape Styles*/
+.circle{ 
+border-radius: 100%;}
+
+
+
+.tri{
+width: 0;
+height: 0;
+background-color: transparent;
+border-style: solid;
+border-width: 0 0 4rem 4rem;
+}
+
+/* #endregion */
+
+/* #region Student Work */
+#student-work {
+    display: none;
+}
+
+/* #endregion */
+
+
+.link-on-white {
+    text-decoration-color: #ffb700;
+    text-decoration-thickness: 0.2rem;
+    @extend .link;
+    @extend .hover-bg-gold;
+    @extend .underline;
+    @extend .near-black;
+}
+
+
+
+.hover-bg-gold:hover {
+    background: #ffb700;
+    color: #111;
+    text-decoration: none;
+}
+
+h2 {
+    @extend .f3;
+    @extend .fw4 ;
+    @extend .f2-ns ;
+    @extend .i ;
+    @extend .mt0;
+
+
+}
+h3 {
+    @extend .fw4; 
+    @extend .f4; 
+    @extend .f3-ns; 
+    @extend .i; 
+    @extend .mt4 ; 
+    @extend .mt5-ns;
+}
+
+h4 {
+    @extend .bb; 
+    @extend .b--white-40; 
+    @extend .f4 ;
+    @extend .mb1 ;
+    @extend .fw4;
+    @extend .mb0;
+    @extend .mt4;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+
+/* Header */
+.header {
+  @extend .bg-near-black;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.header a {
+  @extend .near-white;
+}
+
+.header .logo {
+  display: block;
+  float: left;
+  @extend .f4;
+  padding: 0 1.5em;
+  text-decoration: none;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  @extend .bg-near-black;
+}
+
+.header li a {
+  display: block;
+  text-decoration: none;
+  padding: 0 1.5em;
+  text-align: center;
+  @extend .f4;
+}
+
+.header li:first-child {
+  border-left: 2px solid var(--color-bg2)
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  @extend .hover-bg-white;
+  @extend .hover-near-black;
+}
+
+/* Nav Menu */
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* Menu Icon */
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  @extend .bg-white;
+  display: block;
+  height: 2px;
+  width: 18px;
+  position: relative;
+  transition: background .2s ease-out;
+
+}
+  
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  @extend .bg-white;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* Menu Button */
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .header {
+    padding-left: 10%;
+    padding-right: 20%
+  }
+  
+  .header li {
+    float: left;
+  }
+
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+section {
+  padding-top: 60px;
+}
+
+/* Header */
+.header {
+  @extend .bg-near-black;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.header a {
+  @extend .near-white;
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  padding: 0 1.5em;
+}
+
+/* Logo */
+.header .logo {
+  @extend .f4;
+  display: block;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Menu Button (Checkbox) */
+.header .menu-btn {
+  display: none;
+}
+
+/* Menu Icon */
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  padding: 1.5rem;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  @extend .bg-white;
+  display: block;
+  height: 2px;
+  width: 18px;
+  position: relative;
+  transition: background 0.2s ease-out;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  @extend .bg-white;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* Navigation Menu */
+.header .menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 64px;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  @extend .bg-near-black;
+}
+
+.header .menu li a {
+  display: block;
+  padding: 1rem 1.5em;
+  text-align: left;
+  text-decoration: none;
+  @extend .f4;
+}
+
+.header .menu li a:hover,
+.header .menu-btn:hover {
+  @extend .hover-bg-white;
+  @extend .hover-near-black;
+}
+
+/* Checkbox toggle interaction */
+.header .menu-btn:checked ~ .menu {
+  display: flex;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+/* Desktop Overrides ( 48em) */
+@media (min-width: 48em) {
+  .header {
+    padding-left: 10%;
+    padding-right: 20%;
+  }
+
+  .header nav {
+    flex-direction: row;
+  }
+
+  .header .menu {
+    display: flex !important;
+    flex-direction: row;
+    position: static;
+    justify-content: flex-end;
+    width: auto;
+    background: none;
+  }
+
+  .header .menu li {
+    float: none;
+  }
+
+  .header .menu li a {
+    padding: 0 1.5em;
+    text-align: center;
+  }
+
+  .header .menu-icon {
+    display: none;
+  }
+
+  .header .menu-btn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 30em) {
+.comic-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+}

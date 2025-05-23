@@ -1,0 +1,138 @@
+---
+layout: default
+---
+
+
+    <div class="s-pad pt4 pt5-ns">
+        <h1 class="f2 fw4 f-subheadline-ns i dib near-black">Student Work</h1>
+        <p class="lh-copy f4">This content is password protected. If you believe you should have access, please reference communications or contact me.</p>
+    </div>
+<main id="student-work">
+    <!-- #region Hidden -->
+    <section class="s-pad pv4 pv5-ns">
+        <!-- #region Image Container Row-->
+        <div class="flex flex-wrap mt2 mb6-ns justify-between ">
+
+            <div class="mw6">
+                <img src="/assets/images/studentwork/cline-vwd-square.jpg" alt="cell phone mockup">  
+                <p class="i light-silver f6 mt1 mb0 caption">Michael Cline | Visual Web Design</p>
+            </div>
+
+            <div class="mw6">
+                <img src="/assets/images/studentwork/leininger-gd1.jpg" alt="paint tube illustration">  
+                <p class="i light-silver f6 mt1 mb0 caption">Darby Leininger | Graphic Design I</p>
+            </div>
+
+        </div>
+
+        <!--#endregion-->
+
+        <!-- #region Image Container Row-->
+        <div class="flex flex-wrap mt2 mb6-ns justify-between ">
+            <div class="mw6">
+                <img src="/assets/images/studentwork/fultz-gd2.png" alt="book cover of the invisible man">  
+                <p class="i light-silver f6 mt1 mb0 caption">Taylor Fultz | Graphic Design II</p>
+            </div>
+
+            <div class="mw6">
+                <img src="/assets/images/studentwork/carson-type.jpg" alt="typographic composition of newsboy strike">  
+                <p class="i light-silver f6 mt1 mb0 caption">K. Carson |Typography</p>
+            </div>
+        </div>
+        <!--#endregion-->
+
+        <!-- #region Image Container Row-->
+        <div class="flex flex-wrap mt2 mb6-ns justify-between ">
+            <div class="mw6">
+                <img src="/assets/images/studentwork/ignacio-gd3.jpg" alt="lend me a soprano">  
+                <p class="i light-silver f6 mt1 mb0 caption">Halle Ignacio | Graphic Design III</p>
+            </div>
+
+            <div class="mw6">
+                <img src="/assets/images/studentwork/lindsey-type.png" alt="jai paul tour poster">  
+                <p class="i light-silver f6 mt1 mb0 caption">Dorian Lindsey |Typography</p>
+            </div>
+        </div>
+        <!--#endregion-->
+
+        <!-- #region Image Container Row-->
+        <div class="flex flex-wrap mt2 mb6-ns justify-around ">
+            <div class="">
+                <img src="/assets/images/studentwork/hinkle-gd2.jpg" alt="social media posts on a canvas">  
+                <p class="i light-silver f6 mt1 mb0 caption">Natalie Hinkle | Graphic Design II</p>
+            </div>
+        </div>
+        <!--#endregion-->
+
+        <!-- #region Image Container Row-->
+        <div class="flex flex-wrap mt2 mb6-ns justify-around ">
+            <div class="">
+                <img src="/assets/images/studentwork/zheng-1.png" alt="animal farm book cover">  
+                <p class="i light-silver f6 mt1 mb0 caption">Andy Zheng | Graphic Design II</p>
+            </div>
+        </div>
+
+              <!-- #region Image Container Row-->
+              <div class="flex flex-wrap mt2 mb6-ns justify-around ">
+                <div class="">
+                    <img src="/assets/images/studentwork/west-type.jpg" alt="vinyl collection spread">  
+                    <p class="i light-silver f6 mt1 mb0 caption">Abbey West | Typography</p>
+                </div>
+            </div>
+
+                  <!-- #region Image Container Row-->
+        <div class="flex flex-wrap mt2 mb6-ns justify-between ">
+            <div class="mw6">
+                <img src="/assets/images/studentwork/Monk_GOTVPoster.png" alt="Get out the vote poster">  
+                <p class="i light-silver f6 mt1 mb0 caption">Cayden Monk | Graphic Design I</p>
+            </div>
+        </div>
+        <!--#endregion-->
+        
+      
+
+
+    
+    </section>
+    <!-- endregion -->
+
+
+
+</main>
+
+
+</div>
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var correctPassword = "muffetStudentWork25"; // Set your password here
+      var password;
+      var attempts = 0;
+
+      // Loop until the correct password is entered or user cancels
+      while (password !== correctPassword) {
+        if (attempts > 0) {
+          alert("Incorrect password. This content is password protected. If you believe you should have access, please reference communications or contact me.");
+        }
+
+        password = prompt("Enter password to view this page. If you believe you should have access, please reference communications or contact me.");
+        
+        // If the user cancels the prompt (clicks cancel), the password will be null
+        if (password === null) {
+          window.history.back(); // Go back to the previous page if they cancel the prompt
+          break;
+        }
+
+        attempts++;
+      }
+
+      // If the correct password is entered, show the content
+      if (password === correctPassword) {
+        document.getElementById("student-work").style.display = "block"; // Show the page content
+      }
+    });
+  </script>
+
+    <script> src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js" </script>

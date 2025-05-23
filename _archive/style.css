@@ -1,0 +1,328 @@
+
+/* base tachyons changes */
+.f-headline, .f-subheadline{
+    letter-spacing: -2px;
+}
+
+
+ul {
+    line-height: 2.5rem;
+}
+
+p {
+    max-width: 34em;
+}
+
+body .link:visited {
+    outline: none;
+}
+
+body .link:active {
+    outline: none;
+}
+
+body .link:focus {
+    outline: none;
+}
+
+/* #region NAV */
+
+nav.floater {
+    top: 30vh;
+    left: 3%;
+}
+
+nav.floater div {
+    background: rgba(256, 256, 256, .2)
+}
+
+
+
+video{
+    width: 100%;
+    
+
+}
+/* #endregion/
+
+/* #region HOME*/
+
+.index ol {
+    line-height: 2.5rem;
+    list-style-type: 1;
+    display: inline-block;
+}
+
+.s-pad {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.divider {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+div.img-container {
+    overflow: hidden;
+
+}
+
+.img-container img {
+    object-fit: cover;
+
+}
+
+.mode {
+    margin-top: -13%;
+}
+
+.work .moods {
+    margin-top: -8%;
+}
+
+.work .duality {
+    margin-top: -7%;
+}
+
+.experience li p {
+    margin: .25rem 0 0;
+    line-height: 1.25rem;
+}
+
+.experience li {
+    margin-top: 1rem;
+}
+
+.contact form label,
+.contact form input,
+.contact form textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+
+}
+
+.contact form input:not(.button),
+.contact form textarea:not(.button) {
+    padding: 1rem;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+.contact input:focus:not(.button),
+.contact textarea:focus:not(.button),
+.contact input:hover:not(.button),
+.contact textarea:hover {
+    border: none;
+    background-color: #111;
+    color: white;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+.contact input:focus ::placeholder {
+    color: white;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+
+@media screen and (min-width: 30em) {
+    .s-pad {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+}
+
+/*#endregion*/
+
+/* #region Resume*/
+#resume ol li ul {
+    list-style: disc;
+    line-height: 1.25rem;
+    margin-top: 1rem;
+
+}
+
+#resume ol li ul li {
+    margin-top: 1.25rem;
+    line-height: 1.25rem;
+
+}
+
+#resume li p {
+    margin: .25rem 0 0;
+    line-height: 1.25rem;
+}
+
+#resume .small {
+    font-variant: small-caps;
+}
+
+#resume ol,
+#resume ul {
+    max-width: 30rem;
+}
+
+/*#endregion*/
+
+/* #region Project Pages */
+.project p {
+    max-width: 34em;
+}
+
+.videocontainer {
+    aspect-ratio: 16 /9;
+    width: 100%;
+}
+
+
+/* #endregion */
+
+/* #region MODE */
+#mode .deeppurple {
+    background-color: #0e1436
+}
+
+#mode .purple {
+    background-color: #6668a3
+}
+
+#mode .lavender {
+    background-color: #d6c7ec
+}
+
+#mode .yellow {
+    background-color: #e4d94c
+}
+
+#mode .grey {
+    background-color: #edeceb
+}
+
+#mode .square {
+    width: 15%;
+  }
+  
+  .square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+/* #endregion */
+
+/* #region Mortar */
+@font-face {
+    font-family: "mortar";
+    src: local("mortar"),
+      url("mortarbody020.ttf") format("truetype")
+  }
+  
+  .font-preview{
+    font-family: 'mortar', sans-serif;
+    color: #792817;
+    text-align:center;
+  }
+
+  .glyph-display{
+    font-size:8rem;
+    background-color: #ffdda3;
+  }
+
+  .all-glyphs{
+    font-size:2rem;
+    text-justify: auto;
+  }
+
+  @media screen and (min-width: 1200px) {
+    .glyph-display{
+        font-size:25rem;
+      }
+    
+      .all-glyphs{
+        font-size:3rem;
+  }
+  }
+  
+/* #endregion */
+
+
+/* #region Part of a Pattern */
+.shape{
+    aspect-ratio: 1 / 1;
+}
+.shape:before{
+  content:" ";
+  padding-top: 100%;
+  display: block;
+  aspect-ratio: 1 / 1;
+}
+
+/*Color Styles*/
+.green{
+  background-color:#5e8a5c;
+  border-color: transparent transparent #5e8a5c transparent;
+  /*border-radius: 100%;*/
+}
+
+.darkblue{
+background-color: #315d55;
+border-color: transparent transparent #315d55 transparent;
+}
+
+.orange{
+  background-color:#f17659;
+  border-color: transparent transparent #f17659 transparent;
+}
+
+.teal{
+  background-color: #8bddb8;
+   border-color: transparent transparent #8bddb8 transparent;
+}
+/*Shape Styles*/
+.circle{ 
+border-radius: 100%;}
+
+.square {
+  
+}
+
+.tri{
+width: 0;
+height: 0;
+background-color: transparent;
+border-style: solid;
+border-width: 0 0 4rem 4rem;
+}
+
+/* #endregion */
+
+/* #region Student Work */
+#student-work {
+    display: none;
+}
+
+/* #endregion */
+
+
+.link-on-white {
+    text-decoration-color: #ffb700;
+    text-decoration-thickness: 0.2rem;
+}
+
+
+
+.hover-bg-gold:hover {
+    background: #ffb700;
+    color: #111;
+    text-decoration: none;
+}
+

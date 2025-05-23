@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+  <div class="project sans-serif near-black {{ page.class}}">
+    <!-- #region Intro -->
+    <section class="s-pad pt6">
+      <h1 class = "f2 fw4 f1-ns i mb3 mt0">
+        {{ page.title}}
+      </h1>
+      
+      {% if page.custom-hero %}
+        <div>
+        {{ page.custom-hero }}
+      {% else %}
+        <div class="mv2 mv4-ns img-container">
+
+          <div>
+              <img src="{{page.cover.path}}" alt="{{page.cover.alt}}">
+          </div>
+
+          <p class="i light-silver f6 mt1">
+            {% for tag in page.tags %}
+              <span class="tag">{{ tag }}</span>
+              {% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+           </p>
+      {% endif %}
+        </div>
+      
+      {{page.content}}
+ 
+    </section>
+    <!-- #endregion -->
+    <!-- #region Sections -->
+
+    {% for section in page.sections %}
+      {% assign section_path = 'projects/' | append: page.slug | append: '/' | append: section | append: '.md' %}
+      
+      {% capture content %}
+      {% include {{section_path}} %}
+      {% endcapture %}
+
+      <section class="
+      {% if section == 'solution' %}section-white{% else %}section-black{% endif %} {{section}}
+      ">
+      
+        {{content | markdownify}}
+
+      </section>
+    {% endfor %}
+      
+  </div>

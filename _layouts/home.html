@@ -1,0 +1,85 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <section class="intro pt1 pb4 s-pad" id="intro">
+    <h1 class="fw5 f1 pv4 f-headline-ns lh-solid-ns">
+
+    {{ page.hero }}</h1>
+
+    <div class="i f4 f3-ns">{{ page.sub }}</div>
+
+    <ul class="list f4  pl0">
+      {%- for item in page.work-type -%}
+      <li>{{ item }}</li>
+      {%- endfor -%}
+    </ul>
+
+  </section>
+
+  <section class="s-pad index pv4 bg-near-black near-white">
+      <h2 class="fw4 f4 f3-ns i ">Index</h2>
+      <ol class=" f4 pl3 mt1">
+
+        {%- for item in page.index -%}
+          <a class="link gold" href="#{{item}}"> 
+            <li class="hover-bg-near-white"> {{ item }}</li>
+          </a>
+        {%- endfor -%}
+      </ol>
+  </section>
+  
+  <section class="philosophy s-pad pv4" id="Philosophy">
+    {{ page.philosophy | markdownify }}
+
+  </section>
+
+  <div class="s-pad">
+    <div class="bt-0 bl-0 br-0 bb-1 bb b--dotted "></div>
+  </div>
+
+  <section class="work s-pad pv4" id="Work">
+
+
+    <h2 class="i fw4 f4 f3-ns">
+      Work
+    </h2>
+
+    <p>
+      Those with a password can <a class="link link-on-white underline near-black hover-bg-gold pv2" href="studentwork.html">view student outcomes here.</a>
+    </p>
+
+    {% for slug in page.projects %}
+  {% assign project = site.projects | where: "slug", slug | first %}
+        <div class="project pb2 pv4-ns">
+          <a class="f4 link hover-bg-gold near-black pv2" href="{{ project.url | relative_url }}">{{ project.title }}
+
+            <div class="aspect-ratio aspect-ratio--16x9 img-container mt2 aspect-ratio--16x9-ns">
+                <img src="{{ project.cover.path }}" alt="{{ project.cover.alt }}" class="{{ project.cover.class}}">
+            </div>
+
+            <p class="i light-silver f6 mt1">
+              {%- for tag in project.tags -%}
+                <span class="tag">{{ tag }}</span>
+                {%- unless forloop.last -%}, {% endunless -%}
+            {%- endfor -%}
+          </p>
+
+        </a>
+
+        </div>
+    {%- endfor -%}
+
+
+</section>
+
+{{page.experience | markdownify }}
+
+{{ page.about | markdownify }}
+
+{{ page.contact | markdownify }}
+
+
+</div>

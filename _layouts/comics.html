@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="comic-page">
+
+ {% for comic in site.data.comics %}
+
+ <div class="img-container">
+
+    <img src="{{ comic.path }}" class="comic" loading="lazy">
+ </div>
+
+ {%  endfor %}
+
+
+</div>

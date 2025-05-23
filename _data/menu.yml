@@ -1,0 +1,6 @@
+- name: Home
+  url: /
+- name: Work
+  url: /#Work
+- name: Experience
+  url: /resume

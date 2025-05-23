@@ -1,0 +1,20 @@
+<!-- _includes/img.html -->
+<div class="pb0 pb2-ns img-container mv2 mv4-ns">
+
+    <div 
+        class="
+        {% if include.aspect-ratio %}
+            aspect-ratio aspect-ratio--{{include.aspect-ratio}} 
+        {% endif %} 
+
+          ">
+        <img src="{{ include.src }}" 
+        alt="{{include.alt}} " 
+        {% if include.class %}
+            class= "{{ include.class |escape }}"
+        {% endif %}>
+    </div>
+    {% if include.caption %}
+        <figcaption>{{ include.caption }}</figcaption>
+    {% endif %}
+</div>

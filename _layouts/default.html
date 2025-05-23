@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="sans-serif near-black">
+
+    {%- include header.html -%}
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHMDC73"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+      
+      <!--[if lt IE 7]>
+              <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser to improve your experience.</p>
+          <![endif]-->
+  
+  
+      <!--#region INTRO-->
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  <script>src="/js/menu.js"</script>
+  </body>
+
+</html>
