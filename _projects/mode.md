@@ -6,7 +6,6 @@ slug: mode
 cover: 
     path: /assets/images/mode/programmeMock-cover.jpg
     alt: Program mock laying flat
-    class: mode-program
 custom-hero:
     <div class="pb0 pb2-ns img-container">
 
