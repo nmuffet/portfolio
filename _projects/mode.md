@@ -4,7 +4,7 @@ title: MODE '23 Identity Design
 class: mode
 slug: mode
 cover: 
-    path: /assets/images/mode/programmeMock.jpg
+    path: /assets/images/mode/programmeMock-cover.jpg
     alt: Program mock laying flat
     class: mode-program
 custom-hero:
