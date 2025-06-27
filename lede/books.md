@@ -32,5 +32,5 @@ The data shows that the distribution of biographies on The New York Times list i
 For comparison, these charts show the second most popular category, history.
 
 <div class="img-container mv4 ">
-    <img src="/assets/images/lede/books/history.svg" style="width: 500px;">
+    <img src="/assets/images/lede/books/history_chart.svg" style="width: 500px;">
 </div>
