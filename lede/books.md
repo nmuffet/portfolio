@@ -4,6 +4,9 @@ title: Why Do Americans Love Biographies So Much?
 class: lede
 slug: nonfiction
 ---
+<div class="img-container mv4 ">
+    <img src="/assets/images/lede/books/cover.jpg" >
+</div>
 
 The number of biographies that occupy The New York Times Best Sellers list far outweighs any other nonfiction genre. The list, a measure of combined print and ebook sales over the previous week, has long been a barometer for the collective taste of American readers.
 
