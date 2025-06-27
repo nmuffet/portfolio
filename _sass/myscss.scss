@@ -371,6 +371,7 @@ border-width: 0 0 4rem 4rem;
 .link-on-white {
     text-decoration-color: #ffb700;
     text-decoration-thickness: 0.2rem;
+    text-underline-offset: .25em;
     @extend .link;
     @extend .hover-bg-gold;
     @extend .underline;
@@ -716,6 +717,12 @@ section {
 
   .header .menu-btn {
     display: none;
+  }
+}
+
+p{
+  a{
+  @extend .link-on-white;
   }
 }
 
