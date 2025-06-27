@@ -13,7 +13,7 @@ It's true that media consumption habits have changed as new options have emerged
     <img src="/assets/images/lede/books/top_10.svg" style="width: 650px;">
 </div>
 
-Publishers have long used the public interest in celebrities as an excuse to produce content. If the reason for the biography’s dominance were the sheer volume of books in the genre, it would be expected that The New York Times list would match the distribution of categories published within all of nonfiction. While I was unable to source data for all nonfiction books, I compared the list against a database of over 46,000 books with reviews on [Goodreads.com](https://www.goodreads.com). 
+Publishers may use the public interest in celebrities as an excuse to produce content. If the reason for the biography’s dominance were the sheer volume of books in the genre, it would be expected that The New York Times list would match the distribution of categories published within all of nonfiction. While I was unable to source data for all nonfiction books, I compared the list against a database of over 46,000 books with reviews on [Goodreads.com](https://www.goodreads.com). 
 
 <div class="img-container mv4">
     <img src="/assets/images/lede/books/percent_chart.svg" style="width: 650px;">
