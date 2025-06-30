@@ -8,6 +8,8 @@ slug: nonfiction
     <img src="/assets/images/lede/books/cover.jpg" >
 </div>
 
+This project was done for The Lede Program at Columbia. The actual data and notebook for this can be found at [this repo](https://github.com/nmuffet/books).
+
 The number of biographies that occupy The New York Times Best Sellers list far outweighs any other nonfiction genre. The list, a measure of combined print and ebook sales over the previous week, has long been a barometer for the collective taste of American readers.
 
 It's true that media consumption habits have changed as new options have emerged, (only 75% of Americans read a book at least once a year according to a [2022 Pew survey](https://www.pewresearch.org/short-reads/2022/01/06/three-in-ten-americans-now-read-e-books/)), but a vast amount of human knowledge is still stored in books. Why then, are so many popular nonfiction books devoted to the lives of other people?
