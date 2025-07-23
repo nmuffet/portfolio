@@ -12,7 +12,7 @@ This project was done for The Lede Program at Columbia. The actual data and note
 
 Groups of three and four crowded around the pinball machines in the back room of Station 300, a bowling alley in Cuyahoga Falls. They were gathered for a long-running weekly meetup devoted to the game. This was just one of multiple events that would run in the area this week. One player said that on other days, they would attend meetups at Ray's Pub, Quarter Up, and MadCap Brewing Co. before their closure. 
 
-Pinball has seen a resurgence over the past decade and in contrast with other communal activities, its popularity has only increased in the post-COVID era. The online locator [Pinball Map](https://pinballmap.com/map) shows that the corridor between Cleveland and Canton is filled with locations to play.  "In the 90's, it was dry," Station 300 organizer Jessie Carduner said, explaining that no companies were producing machines. By 2001, only 2-4 new titles were produced each year. In 2024 alone, 44 new games were released.
+Pinball has seen a resurgence over the past decade and in contrast with other communal activities, its popularity has only increased in the post-COVID era. The online locator [Pinball Map](https://pinballmap.com/map) shows that the corridor between Cleveland and Canton is filled with locations to play.  "In the 90s, it was dry," Station 300 organizer Jessie Carduner said, explaining that no companies were producing machines. By 2001, only 2-4 new titles were produced each year. In 2024 alone, 44 new games were released.
 <div class="img-container mv4 ">
     <div id="g-pr2charts-Artboard_1-box" class="ai2html">
 	<!-- Artboard: Artboard_1 -->
@@ -71,8 +71,6 @@ In addition to casual meetups, players travel across the country to compete. The
 <div class="flourish-embed flourish-map" data-src="visualisation/24290153"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/24290153/thumbnail" width="100%" alt="map visualization" /></noscript></div>
 
 Marvin Ortscheid, who manages the machines at Station 300 and recently opened Game On, a pinball arcade in Barberton, was also there. When asked what might be driving the recent interest, he pointed at the TV on the wall displaying local player scores and said, "It's that." He was referring to a feature called Stern Insider Connect on some machines that lets players create an account to track scores and achievements on each game. Carduner said that the digital gamification and social aspect might be drawing in a younger crowd.
-
-Players at Station 300 said the meetups were a good way to socialize and make friends.
 
 <div class="img-container mv4">
     <div id="g-pr2charts-Artboard_1_copy-box" class="ai2html">
