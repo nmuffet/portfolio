@@ -1,17 +1,18 @@
 ---
 layout: default
 ---
+<section class = "pt6">
+   <div class="comic-grid">
 
-<div class="comic-page">
+   {% assign comic_files = site.static_files | where_exp: "item", "item.path contains '/assets/images/comics/'" %}
+   {% assign sorted_comics = comic_files | sort: 'mtime'%}
 
- {% for comic in site.data.comics %}
+   {% for file in sorted_comics %}
+      <div class="img-container">
+         <img src="{{ file.path | relative_url }}" class="comic" loading="lazy" alt="{{ file.name }}">
+         <p class=" i light-silver f6 mt1 mb0 caption">{{ file.name }}</p>
+      </div>
+   {% endfor %}
 
- <div class="img-container">
-
-    <img src="{{ comic.path }}" class="comic" loading="lazy">
- </div>
-
- {%  endfor %}
-
-
-</div>
+   </div>
+</section>

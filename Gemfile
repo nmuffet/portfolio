@@ -20,6 +20,9 @@ gem "minima", "~> 2.0"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
+  gem "ruby-vips"
+  gem "jekyll-seo-tag"
+  gem "jekyll-responsive-image"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -43,3 +46,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "github-pages", "= 228", :group => :jekyll_plugins
 
 gem "webrick", "~> 1.9"
+
+

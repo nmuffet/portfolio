@@ -16,9 +16,7 @@
 title: Nick Muffet
 email: 	nick@nickmuffet.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I'm a designer, educator, and marketer interested in effective communication through emerging media from Akron, OH. I love coffee and houseplants.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nickmuffet.com" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -27,6 +25,9 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-responsive-image
 
 collections:
   projects:
@@ -48,3 +49,16 @@ collections:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# Configuration for jekyll-responsive-image
+responsive_image:
+  driver: vips # Use vips instead of the default rmagick
+  # Define a preset for your comic images
+  # Define a preset for your comic images
+  presets:
+    comics:
+      # Resize images to a max width of 1000px.
+      # The plugin will create a resized version in _site/assets/images/resized
+      sizes:
+        - width: 1000

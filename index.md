@@ -123,7 +123,7 @@ about: |
     <h2 class="f4 fw4 f3-ns i">About</h2>
 
     <div class="lh-copy f4">
-    <p>Outside of my professional work, I’ve produced <a href="http://ghostcomics.limitedrun.com/" class="link link-on-white underline near-black hover-bg-gold pv2">a collection of over 200 comics</a>, some of which were published in the Akron Devil Strip and Blank Slate Elyria magazines.</p>
+    <p>Outside of my professional work, I’ve produced <a href="/comics" class="link link-on-white underline near-black hover-bg-gold pv2">a collection of over 200 comics</a>, some of which were published in the Akron Devil Strip and Blank Slate Elyria magazines.</p>
 
     <p>I have been graced with an interest in almost everything, a love of houseplants, and a consistent
     pourover technique.</p>
