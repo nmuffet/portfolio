@@ -4,6 +4,15 @@ layout: default
 <section class = "pt6">
    <div class="comic-grid">
 
+   {% assign today_comic = site.static_files | where_exp: "item", "item.path contains '/assets/images/comics/today'" %}
+
+   {% for file in today_comic %}
+      <div class="img-container">
+         <img src="{{ file.path | relative_url }}" class="comic" loading="lazy" alt="{{ file.name }}">
+         <p class=" i light-silver f6 mt1 mb0 caption">{{ file.name }}</p>
+      </div>
+   {% endfor %}
+
    {% assign comic_files = site.static_files | where_exp: "item", "item.path contains '/assets/images/comics/'" %}
    {% assign sorted_comics = comic_files | sort: 'mtime'%}
 
