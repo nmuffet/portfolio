@@ -1,0 +1,130 @@
+.design-positions{
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2 {
+    max-width:680px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#canvas-container {
+    width: 100%;
+	height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+#my-button {
+    z-index: 1;
+    position: relative;
+}
+
+
+#scrolly {
+			position: relative;
+			padding: 1rem;
+		}
+
+
+article {
+	position: relative;
+	padding: 0 1rem;
+	padding-bottom:100vh;
+	pointer-events: none;
+
+}
+
+#scrolly figure {
+	position: -webkit-sticky;
+	position: sticky;
+	margin: 0;
+	top: 0;
+
+}
+
+figure
+{
+	margin: 48px 0px;
+}
+
+/* 
+		figure p {
+			text-align: center;
+			padding: 1rem;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			-moz-transform: translate(-50%, -50%);
+			-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+			font-size: 8rem;
+			font-weight: 900;
+			color: #fff;
+		} */
+
+		.step {
+			background-color: rgba(255, 255, 255, .8);
+			margin:100vh 0;
+			max-width: 50rem;
+			margin-left:auto;
+			margin-right:auto;
+			pointer-events:all;
+			backdrop-filter:blur(6px);
+			border-radius:8px;
+			padding: 1em;
+		}
+
+		.step:last-child {
+			margin-bottom: 0;
+		}
+
+
+		.step p {
+
+			font-size: 1.5rem;
+		}
+
+
+
+        /*Tooltips*/
+        #tooltip{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        padding: 16px;
+        background-color: white;
+        border: 1px rgb(196, 196, 196) solid;
+        position:absolute;
+        font-size: 1.25rem;
+        border-radius: 4px;
+		z-index:2;
+        opacity:0;
+		pointer-events: none;
+
+      }
+      #tooltip span{
+        margin-bottom: 6px;
+
+      }
+
+	  .cat-labels{
+		position: absolute;
+        z-index: 1000;
+		text-align:center;
+		font-size:3rem;
+		transform: translateX(-50%);
+		font-weight: 500;
+	  }
+	  
+
+	  @media (max-width: 1400px) {
+		.cat-labels{
+			font-size:18px;
+		}
+	  }
+
+      }

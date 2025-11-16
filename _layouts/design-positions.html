@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="sans-serif near-black">
+
+    {%- include header.html -%}
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHMDC73"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+      
+      <!--[if lt IE 7]>
+              <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser to improve your experience.</p>
+          <![endif]-->
+  
+  
+      <!--#region INTRO-->
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="design-positions near-black {{page.class}}">
+    <!-- #region Intro -->
+    <section class="s-pad pt6">
+      <h1 class = "f2 fw4 f1-ns i mb3 mt0">
+        {{ page.title}}
+      </h1>
+      </section>
+    
+      
+      {{content}}
+ 
+    <!-- #endregion -->
+    <!-- #region Sections -->
+
+
+      
+  </div>
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  <script>src="/js/menu.js"</script>
+  	<!-- <div class='debug'></div> -->
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+	 <script src="/lede/design-positions/js/scrollama.min.js"></script>
+	 <script src = "/lede/design-positions/js/scrolly.js"></script>
+
+	<!-- <script src="./d3-prototype.js"></script> -->
+	 <script src="/lede/design-positions/js/nodesViz.js"></script>
+	 <script src="/lede/design-positions/js/industryViz.js"></script>
+
+  </body>
+
+</html>
+
+
+
+
