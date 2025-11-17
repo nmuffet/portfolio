@@ -57,7 +57,7 @@ Despite tech layoffs post-COVID, the UX space continues to offer growth for desi
 </section>
 </section>
 
-<section id="phasetwo" class="s-pad">
+<section id="phasetwo" class="s-pad pb7-ns">
 <p>Deep expertise in visual communication design is still valuable and needed, but graduates may find the job market they graduate into to be increasingly competitive if viewed through a narrow scope. Not only are design skills dispersing amongst vocations, but the disciplines they are moving to pay better and are growing faster. O*NET and BLS statistics show more favorable earnings and job growth in marketing and UX when compared with visual design.</p>
 
 <figure id="bls-stat">
