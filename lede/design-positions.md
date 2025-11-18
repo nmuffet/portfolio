@@ -1,6 +1,6 @@
 ---
 layout: design-positions
-title: Design Roles are Changing, Education Should Too.
+title: Design Roles Are Changing. Education Should Too.
 class: design-positions
 slug: nonfiction
 ---
@@ -15,6 +15,37 @@ slug: nonfiction
     </p>
 </section>
 </div>
+
+<div class="small-story s-pad">
+<div class="small-callout pa4 i bg-gold">
+<p>
+The charts in this story work best on larger screens, but you can still read the text without them below.</p>
+</div>
+<p>
+    Out of a sample of 100,000 LinkedIn jobs, roughly 2,000 were likely to be design or content positions when filtering by job title for a subset of design specific terms like “graphic”, “illustrator”, “content”, and “UX”. 
+</p>
+<p>
+By using K-means clustering analysis on the title, description, and required skills of job postings, terms that frequently appear together were grouped. When these groups are viewed as a whole, three types of visual communication positions emerge—content marketing, traditional visual communication design, and product design or UX.
+</p>
+<p>
+Less than one-third of these postings focus solely on visual design.
+</p>
+<p>
+The patterns seen in the Future of Skills Economic Graph are reflected in position titles. Marketing positions take on roles such as “Content Specialist” or “Social Media Manager”, both of which require graphic production in the form of design, photography, or video.
+</p>
+<p>
+Traditional graphic design positions continue to require new skills, like dynamic data visualization, motion graphic, and 3D modeling.
+</p>
+<p>
+Despite tech layoffs post-COVID, the UX space continues to offer growth for design employment. Many titles now use  “product design” rather than “UX” and expect designers to have responsibility over product financial metrics and lifecycle success.
+</p>
+<h2>An Opportunity to Rethink Design Education</h2>
+
+<p>As institutions question how best to position during social and technological change, this may be an opportune time to reinvent what it means to study design and be job-ready. Small liberal arts colleges, which thrive on being able to establish relationships and work across departments, but struggle to offer the depth and combined years of experience that large departments provide, may be particularly well-suited to make this change.</p>
+
+<p>Design programs should ensure students have exposure to all three domains while providing them with the agency to choose what type of designers they want to be. This type of program structure acknowledges a dynamic and skill-based labor market that places less emphasis on specific degrees and uniform knowledge.</p>
+</div>
+<div class="mobile-wrap">
 
 <section id="scrolly">
 <section>
@@ -79,3 +110,4 @@ Despite tech layoffs post-COVID, the UX space continues to offer growth for desi
 <p>Design programs should ensure students have exposure to all three domains while providing them with the agency to choose what type of designers they want to be. This type of program structure acknowledges a dynamic and skill-based labor market that places less emphasis on specific degrees and uniform knowledge.</p>
 
 </section>
+</div>

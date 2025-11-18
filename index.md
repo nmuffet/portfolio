@@ -31,9 +31,9 @@ philosophy: |
 
 projects:
     - mode
-    - pattern
     - posture
     - cleveland-clinic-lri
+    - pattern
     - ar
 
 experience: |

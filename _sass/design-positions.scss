@@ -120,10 +120,19 @@ figure
 		font-weight: 500;
 	  }
 	  
+	  .small-story {
+		display:none;
+	  }
 
 	  @media (max-width: 1400px) {
 		.cat-labels{
 			font-size:18px;
+		}
+		.mobile-wrap{
+			display:none;
+		}
+		.small-story{
+			display:block;
 		}
 	  }
 
