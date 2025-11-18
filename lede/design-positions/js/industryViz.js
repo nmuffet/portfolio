@@ -1,7 +1,7 @@
 
 
 
-d3.csv('../data/job-stats.csv', d=>{
+d3.csv('/lede/design-positions/data/job-stats.csv', d=>{
     return {
         jobText: d['job-text'],
         pay: +d.pay,

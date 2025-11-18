@@ -62,7 +62,7 @@ let categoryCenters = {
     }
 };
 
-d3.csv('../data/no_marketing_writing.csv').then(initViz1);
+d3.csv('/lede/design-positions/data/no_marketing_writing.csv').then(initViz1);
 
 
 
