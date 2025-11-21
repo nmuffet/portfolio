@@ -29,6 +29,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-responsive-image
 
+
 collections:
   projects:
     output: true

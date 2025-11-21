@@ -2,7 +2,7 @@
 layout: design-positions
 title: Design Roles Are Changing. Education Should Too.
 class: design-positions
-slug: nonfiction
+slug: design-positions
 ---
 <div class = "s-pad">
 <div class="img-container mv4 ">
