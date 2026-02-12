@@ -34,7 +34,7 @@ Less than one-third of these postings focus solely on visual design.
 The patterns seen in the Future of Skills Economic Graph are reflected in position titles. Marketing positions take on roles such as “Content Specialist” or “Social Media Manager”, both of which require graphic production in the form of design, photography, or video.
 </p>
 <p>
-Traditional graphic design positions continue to require new skills, like dynamic data visualization, motion graphic, and 3D modeling.
+Traditional graphic design positions continue to require new skills, like dynamic data visualization, motion graphics, and 3D modeling.
 </p>
 <p>
 Despite tech layoffs post-COVID, the UX space continues to offer growth for design employment. Many titles now use  “product design” rather than “UX” and expect designers to have responsibility over product financial metrics and lifecycle success.
