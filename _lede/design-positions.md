@@ -76,7 +76,7 @@ The patterns seen in the Future of Skills Economic Graph are reflected in positi
 </div>
 <div class="step" data-step="4">
 <p>
-Traditional graphic design positions continue to require new skills, like dynamic data visualization, motion graphic, and 3D modeling.
+Traditional graphic design positions continue to require new skills, like dynamic data visualization, motion graphics, and 3D modeling.
 </p>
 </div>
 <div class="step" data-step="5">

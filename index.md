@@ -13,7 +13,7 @@ work-type:
     - → Identity & Branding
     - → Information
     - → Photo/Video
-    - → Screens
+    - → Screens & UX
 index:
     - Philosophy
     - Work
@@ -30,9 +30,9 @@ philosophy: |
     Design is, like many professions, a framework for problem solving. We try to make things beautiful along the way.
 
 projects:
-    - mode
     - posture
     - cleveland-clinic-lri
+    - mode
     - pattern
     - ar
 
