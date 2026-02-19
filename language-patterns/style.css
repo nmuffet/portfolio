@@ -1,0 +1,94 @@
+/* Language Patterns Interactive Styles */
+.language-patterns-hero {
+  margin: 0;
+  padding: 0;
+  font-family: "Mona Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.language-patterns-hero .hero-container, 
+.language-patterns-hero #controls, 
+.language-patterns-hero input {
+  font-size: 24px;
+}
+  
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 2rem;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+}
+
+.hero-text {
+  display: flex;
+  align-items: center;
+  padding: 0 10% 10% 10%;
+}
+
+.language-patterns-title {
+  text-align: center;
+  font-size: 6rem;
+  line-height: 100%;
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+}
+
+input:focus, textarea:focus, select:focus { 
+  outline: none; 
+}
+
+#nameInput {
+  border: none;
+  background-color: #f0f0f0;
+  padding: 16px;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+#generateButton {
+  padding: 16px 24px;
+  font-weight: 600;
+  font-size: 24px;
+  border: none;
+  color: white;
+  background-color: #2e1a47;
+  border-radius: 4px;
+  margin-left: 24px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+#generateButton:hover {
+  background-color: #493564;
+}
+
+@media (max-width: 1280px) {
+  .hero-container {
+    display: block;
+  }
+
+  .language-patterns-title {
+    font-size: 3rem;
+  }
+
+  .language-patterns-hero .hero-container, 
+  .language-patterns-hero #controls, 
+  .language-patterns-hero input {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  #controls, 
+  #nameInput {
+    margin: 8px 0;
+  }
+
+  #generateButton {
+    font-size: 18px;
+    margin-left: 0;
+  }
+}
