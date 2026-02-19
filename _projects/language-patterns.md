@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: language-patterns
 title: Language Patterns
 class: project
 slug: language-patterns
@@ -7,7 +7,6 @@ cover:
     path: 
     alt:
     class:
-custom-hero: language-patterns
   
 display: true
 categories: project
