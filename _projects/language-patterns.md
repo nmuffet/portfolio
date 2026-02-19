@@ -7,14 +7,14 @@ cover:
     path: 
     alt:
     class:
-custom-hero: {% include projects/language-patterns/interactive.html %}
+custom-hero: language-patterns
   
 display: true
 categories: project
 tags:
     - Development
-    - Generative Art
-    - Interactive
+    - Information
+    - Screens
    
 sections:
    - brief
