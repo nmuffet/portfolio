@@ -10,10 +10,16 @@ layout: default
       </h1>
       
       {% if page.custom-hero %}
-        <div class="custom-hero-container">
-        {% assign hero_path = 'projects/' | append: page.custom-hero | append: '/interactive.html' %}
-        {% include {{hero_path}} %}
-        </div>
+        {% if page.custom-hero contains '<' %}
+          <div class="custom-hero-container">
+          {{ page.custom-hero }}
+          </div>
+        {% else %}
+          <div class="custom-hero-container">
+          {% assign hero_path = 'projects/' | append: page.custom-hero | append: '/interactive.html' %}
+          {% include {{hero_path}} %}
+          </div>
+        {% endif %}
       {% else %}
         <div class="mv2 mv4-ns img-container">
 
