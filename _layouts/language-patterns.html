@@ -4,30 +4,23 @@ layout: default
 
   <div class="project sans-serif near-black {{ page.class}}">
     <!-- #region Intro -->
-    <section class="s-pad">
+    <section class="">
       {% assign hero_path = 'projects/' | append: page.slug | append: '/interactive.html' %}
       {% include {{hero_path}} %}
       
-      {{page.content}}
+   
  
     </section>
     <!-- #endregion -->
     <!-- #region Sections -->
 
-    {% for section in page.sections %}
-      {% assign section_path = 'projects/' | append: page.slug | append: '/' | append: section | append: '.md' %}
-      
-      {% capture content %}
-      {% include {{section_path}} %}
-      {% endcapture %}
 
-      <section class="
-      {% if section == 'solution' %}section-white{% else %}section-black{% endif %} {{section}}
-      ">
+
+      <section class="section-white {{section}}">
       
-        {{content | markdownify}}
+           {{page.content}}
 
       </section>
-    {% endfor %}
+
       
   </div>

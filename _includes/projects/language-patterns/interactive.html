@@ -1,12 +1,10 @@
 <style>
 .language-patterns-iframe-container {
-  width: 100vw;
+  width: 90vw;
   margin-left: calc(-50vw + 50%);
-  height: auto;
-  aspect-ratio: 16 / 9;
+  height: 90vh;
   border: none;
-  margin-bottom: 3rem;
-  overflow: hidden;
+  position: relative;
 }
 
 .language-patterns-iframe-container iframe {
@@ -14,9 +12,20 @@
   height: 100%;
   border: none;
   display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
+
+@media (max-width: 1280px) {
+  .language-patterns-iframe-container {
+    min-height: 150vh;
+    width: 100vw;
+    height: 100vh;
+  }
+  }
 </style>
 
-<div class="language-patterns-iframe-container">
-  <iframe src="https://nmuffet.github.io/language-patterns/" title="Language Patterns Interactive" scrolling="no" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="language-patterns-iframe-container" id="language-patterns-container">
+  <iframe src="https://nmuffet.github.io/language-patterns/" title="Language Patterns Interactive" scrolling="no" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="language-patterns-iframe"></iframe>
 </div>

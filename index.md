@@ -32,6 +32,8 @@ philosophy: |
 projects:
     - posture
     - cleveland-clinic-lri
+    - language-patterns
+    - cleveland-clinic-innovations
     - mode
     - pattern
     - ar
