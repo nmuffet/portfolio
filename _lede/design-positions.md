@@ -22,7 +22,7 @@ slug: design-positions
 The charts in this story work best on larger screens, but you can still read the text without them below.</p>
 </div>
 <p>
-    Out of a sample of 100,000 LinkedIn jobs, roughly 2,000 were likely to be design or content positions when filtering by job title for a subset of design specific terms like “graphic”, “illustrator”, “content”, and “UX”. 
+    My own analysis shows that out of a sample of 100,000 LinkedIn job postings, roughly 2,000 were likely to be design or content positions when filtering by job title for a subset of design specific terms like “graphic”, “illustrator”, “content”, and “UX”. 
 </p>
 <p>
 By using K-means clustering analysis on the title, description, and required skills of job postings, terms that frequently appear together were grouped. When these groups are viewed as a whole, three types of visual communication positions emerge—content marketing, traditional visual communication design, and product design or UX.
