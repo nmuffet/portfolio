@@ -3,10 +3,16 @@
 
 ### Concept
 
-The Sandstones product launch utilized a multichannel marketing approach including video ads, social media, newsletter content, web experience, and sales associate touchpoints to drive awareness and interest. I was responsible for planning and executing each item in this process. Capturing compelling product photography and video content was key to this campaign’s success, as well as revamping the Rock Candy Holds webstore.
+The Sandstones product launch utilized a multichannel marketing approach including video ads, social media, newsletter content, web experience, and sales associate touchpoints to drive awareness and interest. 
 
-### Product Photography
-I introduced the practice of capturing 360 photography for all Rock Candy products. This was done to give customers a better assessment of primarily tactile products without being able to touch them. User interviews confirmed that this practice helped customers feel more comfortable when compared to static product shots.
+I was responsible for planning and executing each item in this process and revamping the webstore in time for the product's launch. Capturing compelling product photography and video content was key to this campaign’s success.
+
+### Experience Design & Product Photography
+In collaboration with the company's owners, I participated in redesigning the company website, including product detail pages to help users make decisions about products that are primarily tactile objects. 
+
+I introduced the practice of capturing 360 photography for all Rock Candy products. This was done to give customers a better assessment of the products without being able to touch them. User interviews confirmed that this practice helped customers feel more comfortable when compared to static product shots.
+
+In addition, I helped collect and surface categorical information for users, such as how challenging the holds would be on various terrain, as well as what types of holds they would pair well with.
 
 <!--#region Video-->
 <video id="player" playsinline controls poster="/assets/images/sandstone/360Poster.jpg">

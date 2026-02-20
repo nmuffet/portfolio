@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Rock Candy Sandstone Product Launch
+title: Rock Candy Website Redesign & Sandstone Product Launch
 class: project
 slug: sandstone
 cover: 
