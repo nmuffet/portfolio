@@ -12,14 +12,22 @@ In collaboration with the company's owners, I participated in redesigning the co
 
 I introduced the practice of capturing 360 photography for all Rock Candy products. This was done to give customers a better assessment of the products without being able to touch them. User interviews confirmed that this practice helped customers feel more comfortable when compared to static product shots.
 
-In addition, I helped collect and surface categorical information for users, such as how challenging the holds would be on various terrain, as well as what types of holds they would pair well with.
-
 <!--#region Video-->
 <video id="player" playsinline controls poster="/assets/images/sandstone/360Poster.jpg">
     <source src="/assets/images/sandstone/product360.mp4" type="video/mp4" />
 </video>
 
+In addition, I helped collect and surface categorical information for users, such as how challenging the holds would be on various terrain, as well as what types of holds they would pair well with.
+
+{% include img.html
+src="/assets/images/sandstone/rc-product-page.jpg"
+alt="Sales flipbook cover"
+%}
+
+
 <!--#endregion-->
+#### **Flipbooks**
+
 {% include img.html
 src="/assets/images/sandstone/cover2.jpg"
 alt="Sales flipbook cover"

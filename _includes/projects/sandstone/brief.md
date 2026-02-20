@@ -1,7 +1,7 @@
 
 ## Brief
 #### Objective
-Drive awareness of and interest in Rock Candy’s line of climbing hold products.
+Redesign Rock Candy Holds webstore. Drive awareness of and interest in Rock Candy’s line of climbing hold products.
 
 #### Audience
 Climbing industry professionals known as route setters responsible for creating the climbs at commercial climbing gyms.
