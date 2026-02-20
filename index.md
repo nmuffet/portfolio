@@ -37,6 +37,7 @@ projects:
     - mode
     - pattern
     - ar
+    - sandstone
 
 experience: |
     <section class="experience s-pad pv4 bg-near-black near-white" id="Experience">

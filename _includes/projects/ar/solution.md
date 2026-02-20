@@ -15,7 +15,7 @@
 
 
 
-While augmented reality (AR) is becoming a more accessible technology, surprisingly little research has been conducted on how designers should use it effectively. My master's thesis involved testing whether or not augmented reality has any impact on communication effectiveness or information recall.
+While augmented reality (AR) is becoming a more accessible technology, surprisingly little research has been conducted on how designers should use it effectively. [My master's thesis](http://rave.ohiolink.edu/etdc/view?acc_num=kent1668875945845874) involved testing whether or not augmented reality has any impact on communication effectiveness or information recall.
 
 To test this, I conducted interviews, led a student AR gallery implementation, and designed a series of posters that must be decoded through the use of an AR Instagram filters. Through my research I have created an initial framework for categorizing augmentations and hypothesized a series of principles for effectively designing with AR. This research finds that AR posters significantly increase user engagement and enjoyment but decrease information recall.
 
