@@ -2,12 +2,34 @@
 layout: default
 ---
 
+<!-- Password Modal Overlay - This covers the entire screen -->
+<div id="password-modal" class="password-modal">
+    <!-- Modal Content Box - This is the white box in the center -->
+    <div class="password-modal-content">
+        <h2 class="f3 fw4 near-black mb3">Password Protected</h2>
+        <p class="lh-copy near-black f5 mb3">This content is password protected. If you believe you should have access, please reference communications or contact me.</p>
+        
+        <!-- Password Input Field -->
+        <input 
+            type="text" 
+            id="password-input" 
+            placeholder="Enter password"
+            class="password-input"
+        />
+        
+        <!-- Error Message (hidden by default) -->
+        <p id="error-message" class="error-message">That's not quite right. Please reference communications.</p>
+        
+        <!-- Submit Button -->
+        <button id="submit-password" class="button br0 bg-gold bn pa3 hover-white mb4 ">Submit</button>
+    </div>
+</div>
 
     <div class="s-pad pt4 pt5-ns">
         <h1 class="f2 fw4 f-subheadline-ns i dib near-black">Student Work</h1>
         <p class="lh-copy f4">This content is password protected. If you believe you should have access, please reference communications or contact me.</p>
     </div>
-<main id="student-work">
+<main id="student-work" style="display: none;">
     <!-- #region Hidden -->
     <section class="s-pad pv4 pv5-ns">
 
@@ -163,36 +185,121 @@ layout: default
 
 </div>
 
+<!-- CSS Styling for the Password Modal -->
+<style>
+    /* The Modal Overlay - covers entire screen */
+    .password-modal {
+        display: flex; /* Uses flexbox to center content */
+        position: fixed; /* Stays in place even if you scroll */
+        z-index: 9999; /* High number = appears on top of everything */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+        align-items: center; /* Centers vertically */
+        justify-content: center; /* Centers horizontally */
+    }
+
+    /* The White Content Box */
+    .password-modal-content {
+        background-color: white;
+        padding: 40px;
+        border-radius: 8px; /* Rounded corners */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+        max-width: 500px;
+        width: 90%; /* Responsive: 90% on small screens */
+        text-align: center;
+    }
+
+    /* Password Input Field */
+    .password-input {
+        width: 100%;
+        padding: 12px 16px;
+        font-size: 16px;
+        border: 2px solid #ddd; /* Light gray border */
+        border-radius: 4px;
+        margin-bottom: 10px;
+        box-sizing: border-box; /* Includes padding in width calculation */
+        transition: border-color 0.3s; /* Smooth color change on focus */
+    }
+
+    /* Input field when focused (clicked) */
+    .password-input:focus {
+        outline: none; /* Removes default browser outline */
+        border-color: #333; /* Darker border when active */
+    }
+
+    /* Error Message */
+    .error-message {
+        color: #d32f2f; /* Red color */
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 15px;
+        display: none; /* Hidden by default */
+    }
+
+    /* Show error when it has the 'show' class */
+    .error-message.show {
+        display: block;
+    }
+
+    /* Submit Button */
 
 
+    /* Button hover effect */
+    .button:hover {
+        background-color: #111111; /* Lighter on hover */
+    }
+
+    /* Hide modal when it has 'hidden' class */
+    .password-modal.hidden {
+        display: none;
+    }
+</style>
+
+<!-- JavaScript to Handle Password Logic -->
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-      var correctPassword = "muffetStudentWork26"; // Set your password here
-      var password;
-      var attempts = 0;
-
-      // Loop until the correct password is entered or user cancels
-      while (password !== correctPassword) {
-        if (attempts > 0) {
-          alert("Incorrect password. This content is password protected. If you believe you should have access, please reference communications or contact me.");
-        }
-
-        password = prompt("Enter password to view this page. If you believe you should have access, please reference communications or contact me.");
+        // STEP 1: Get references to all the elements we need
+        const modal = document.getElementById('password-modal');
+        const input = document.getElementById('password-input');
+        const submitBtn = document.getElementById('submit-password');
+        const errorMsg = document.getElementById('error-message');
+        const content = document.getElementById('student-work');
         
-        // If the user cancels the prompt (clicks cancel), the password will be null
-        if (password === null) {
-          window.history.back(); // Go back to the previous page if they cancel the prompt
-          break;
+        // STEP 2: Set the correct password
+        const correctPassword = "muffetStudentWork26";
+
+        // STEP 3: Function to check the password
+        function checkPassword() {
+            const enteredPassword = input.value; // Get what user typed
+            
+            if (enteredPassword === correctPassword) {
+                // SUCCESS! Password is correct
+                modal.classList.add('hidden'); // Hide the modal
+                content.style.display = 'block'; // Show the page content
+            } else {
+                // WRONG! Show error message
+                errorMsg.classList.add('show'); // Make error visible
+                input.value = ''; // Clear the input field
+                input.focus(); // Put cursor back in input
+            }
         }
 
-        attempts++;
-      }
+        // STEP 4: Listen for button clicks
+        submitBtn.addEventListener('click', checkPassword);
 
-      // If the correct password is entered, show the content
-      if (password === correctPassword) {
-        document.getElementById("student-work").style.display = "block"; // Show the page content
-      }
+        // STEP 5: Listen for Enter key press in the input field
+        input.addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                checkPassword(); // Run same function as button click
+            }
+        });
+
+        // STEP 6: Make sure modal shows on page load
+        modal.classList.remove('hidden');
+        input.focus(); // Put cursor in input field automatically
     });
-  </script>
+</script>
 
-    <script> src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js" </script>
