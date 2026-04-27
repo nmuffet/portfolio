@@ -67,7 +67,7 @@ A backing track of drum cadence links the bright and dynamic energy of the image
 
 ### Color Palette
 
-<div class="flex justify-between mw7 mv2 mv4-ns">
+<div class="flex justify-between mw7 mv2 mv4-ns mode">
             <div class="square deeppurple  "></div>
             <div class="purple  square"></div>
             <div class="lavender square"></div>
