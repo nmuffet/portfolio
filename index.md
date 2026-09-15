@@ -46,9 +46,17 @@ experience: |
     <ol class="pl0 list f5">
     <li>
     <div>
+    <p class="b">Assistant Professor, School of Visual Communication Design</p>
+    <p>Kent State University</p>
+    <p class="f6">2026–Present</p>
+    </div>
+    </li>
+    
+    <li>
+    <div>
     <p class="b">Assistant Professor of Graphic Design</p>
     <p>University of Mount Union</p>
-    <p class="f6">2023–Present</p>
+    <p class="f6">2023–2026</p>
     </div>
     </li>
 
